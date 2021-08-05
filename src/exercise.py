@@ -5,9 +5,8 @@ def main():
     with open(file_name, 'r') as f:
         names = f.read().splitlines()
     
-    print("Enter names, an empty line quits.")
     while True:
-        name = input()
+        name = input("Enter names, an empty line quits.")
 
         if not name:
             break
