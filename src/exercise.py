@@ -1,12 +1,9 @@
 def main():
     #write your code below this line
-    with open("names.txt", 'r') as f:
-        lines = f.read().splitlines()
+    file_name = input("Name of the file:")
 
-    with open("other-names.txt", 'r') as f:
-        lines2 = f.read().splitlines()
-
-    names = lines + lines2
+    with open(file_name, 'r') as f:
+        names = f.read().splitlines()
     
     print("Enter names, an empty line quits.")
     while True:
