@@ -12,9 +12,9 @@ def main():
             break
 
         if name in names:
-            print("The name is on the list")
+            print("The name is on the list.")
         else:
-            print("The name is not on the list")
+            print("The name is not on the list.")
 
     print("Thank you!")
 
